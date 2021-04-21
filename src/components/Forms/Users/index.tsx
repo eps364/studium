@@ -130,9 +130,7 @@ const FormUser: NextPage = () => {
                 control={<Checkbox value="allowExtraEmails" color="primary" />}
                 label="Li e aceito os termos de uso."
               />
-              <Link href="/">
-                (Termo de uso)
-              </Link>
+              <Link href="/">(Termo de uso)</Link>
             </Grid>
           </Grid>
           <Button type="submit" fullWidth variant="contained" color="primary">

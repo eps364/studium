@@ -1,7 +1,14 @@
 import { NextPage } from 'next';
-import Box from '@material-ui/core/Box';
+import { Typography, Container } from '@material-ui/core';
 
 const Footer: NextPage = () => {
-  return <Box>Studium - 2021</Box>;
+  return (
+    <Container>
+      <hr />
+      <Typography variant="h6" color="initial" align="center">
+        Studium - 2021
+      </Typography>
+    </Container>
+  );
 };
 export default Footer;

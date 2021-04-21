@@ -17,7 +17,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint --fix ./src/. --ext .tsx && tsc",
+      "pre-commit": "prettier && lint && type-check && build",
       "pre-push": "yarn test"
     }
   },
