@@ -1,2 +1,2 @@
-# studium
+# Studium
 Studium Blog
