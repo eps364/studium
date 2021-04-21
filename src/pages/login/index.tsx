@@ -88,7 +88,7 @@ export default function SignIn() {
             </Grid>
             <Grid item>
               <Link href="/logout" variant="body2">
-                {"Cadastrar usuário"}
+                {'Cadastrar usuário'}
               </Link>
             </Grid>
           </Grid>
